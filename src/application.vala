@@ -143,7 +143,7 @@ public class Folio.Application : Adw.Application {
 		var about = new Adw.AboutDialog ();
 		about.application_icon = Config.APP_ID;
 		about.application_name = "Folio";
-		about.developers = {"Greg Ross <greg@toolstack.com>", "Zagura"};
+		about.developers = {"Greg Ross <greg@toolstack.com>", "Zagura"}; // Maybe translator-credits should be localised?
 		about.translator_credits = """
 Zagura <me@zagura.one>
 Jan Krings <liquidsky42@gmail.com>
@@ -165,6 +165,7 @@ Sabri Ünal <libreajans@gmail.com>
 Mykyta Opanasiuk <nikitaopanassiuk@outlook.com>
 Guoyi Zhang <guoyizhang@malacology.net>
 rene-coty
+Sunniva Løvstad https://turtle.garden
 """;
 		about.translator_credits = about.translator_credits.chomp ().chug ();
 		about.issue_url = "https://github.com/toolstack/Folio/issues";
