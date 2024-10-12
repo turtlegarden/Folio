@@ -425,7 +425,7 @@ msgstr ""
 "Hvor mye Folio skal lete etter URL-er i\n"
 "tekst. Nivåene er slik:\n"
 "- Aggressiv prøver å finne alle URL-er\n"
-"- Strikt leter etter et protokolkjennetegn (t.d. http://)\n"
+"- Streng leter etter et protokolkjennetegn (t.d. http://)\n"
 "- Deaktivert leter ikke etter URL-er."
 
 #: src/ui/preferences/preferences.blp:39
