@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.toolstack.Folio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-12 16:53+0200\n"
-"PO-Revision-Date: 2024-10-12 19:25+0200\n"
+"POT-Creation-Date: 2024-10-13 16:07+0200\n"
+"PO-Revision-Date: 2024-10-13 16:08+0200\n"
 "Last-Translator: Sunniva Løvstad <turtle@turtle.garden>\n"
 "Language-Team: \n"
 "Language: nb\n"
@@ -35,18 +35,18 @@ msgid "Notebook;Note;Notes;Text;Markdown;Notepad;Write;School;Post-it;Sticky;"
 msgstr "Notisbok;Notat;Tekst;Markdown;Notepad;Skriv;Skole;Klistrelapp;Husk;"
 
 #: data/app.desktop.in:22 src/ui/popup/shortcut_window.blp:17
-#: src/ui/strings.vala:8 src/ui/window/window.blp:54
-#: src/ui/window/window.blp:131
+#: src/ui/strings.vala:8 src/ui/window/window.blp:55
+#: src/ui/window/window.blp:132
 msgid "New Note"
 msgstr "Nytt notat"
 
 #: data/app.desktop.in:26 src/ui/popup/shortcut_window.blp:37
-#: src/ui/strings.vala:14 src/ui/window/window.blp:189
+#: src/ui/strings.vala:14 src/ui/window/window.blp:190
 msgid "New Notebook"
 msgstr "Ny notisbok"
 
 #: data/app.desktop.in:30 src/ui/edit_view/toolbar/toolbar.blp:92
-#: src/ui/strings.vala:39 src/ui/window/window.blp:291
+#: src/ui/strings.vala:39 src/ui/window/window.blp:292
 msgid "Markdown Cheatsheet"
 msgstr "Markdown-referanseark"
 
@@ -386,11 +386,11 @@ msgstr "Formatering"
 msgid "Navigation"
 msgstr "Navigasjon"
 
-#: src/ui/popup/shortcut_window.blp:102 src/ui/window/window.blp:268
+#: src/ui/popup/shortcut_window.blp:102 src/ui/window/window.blp:269
 msgid "Toggle Sidebar"
 msgstr "Vis/skjul sidefeltet"
 
-#: src/ui/popup/shortcut_window.blp:107 src/ui/window/window.blp:70
+#: src/ui/popup/shortcut_window.blp:107 src/ui/window/window.blp:71
 msgid "Search Notes"
 msgstr "Søk gjennom notater"
 
@@ -486,7 +486,7 @@ msgstr "%d notater"
 msgid "Are you sure you want to delete everything in the trash?"
 msgstr "Er du sikker på at du vil slette alt i papirkurven?"
 
-#: src/ui/strings.vala:7 src/ui/window/window.blp:61
+#: src/ui/strings.vala:7 src/ui/window/window.blp:62
 msgid "Empty Trash"
 msgstr "Slett"
 
@@ -871,34 +871,34 @@ msgstr "Flytt til papirkurven"
 msgid "Open Containing Folder"
 msgstr "Åpne inneholdende mappe"
 
-#: src/ui/window/window.blp:123
+#: src/ui/window/window.blp:124
 msgid "Get started writing"
 msgstr "Kom i gang med å skrive"
 
-#: src/ui/window/window.blp:152
+#: src/ui/window/window.blp:153
 msgid "Open file in external application"
 msgstr "Åpne fil i ekstern applikasjon"
 
-#: src/ui/window/window.blp:160
+#: src/ui/window/window.blp:161
 msgid "Open file"
 msgstr "Åpne fil"
 
-#: src/ui/window/window.blp:181
+#: src/ui/window/window.blp:182
 msgid "Create a notebook"
 msgstr "Opprett en notisbok"
 
-#: src/ui/window/window.blp:210
+#: src/ui/window/window.blp:211
 msgid "Trash is empty"
 msgstr "Papirkurven er tom"
 
-#: src/ui/window/window.blp:285
+#: src/ui/window/window.blp:286
 msgid "Open in Notebook"
 msgstr "Åpne i notisbok"
 
-#: src/ui/window/window.blp:312
+#: src/ui/window/window.blp:313
 msgid "_Rename Note"
 msgstr "_Bytt navn på notat"
 
-#: src/ui/window/window.blp:319
+#: src/ui/window/window.blp:320
 msgid "_Export Note"
 msgstr "_Eksporter notat"
