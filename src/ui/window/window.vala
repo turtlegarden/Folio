@@ -140,7 +140,7 @@ public class Folio.Window : Adw.ApplicationWindow {
 		breakpoint.unapply.connect (() => { is_breakpoint = false; });
 
 		leaflet.notify["collapsed"].connect (() => { toggle_sidebar_visibility (); });
-		toggle_sidebar.toggled.connect (() => { toggle_sidebar_visibility_action (); });
+		toggle_sidebar.clicked.connect (() => { toggle_sidebar_visibility_action (); });
 	}
 
 	public Window (Application app) {
