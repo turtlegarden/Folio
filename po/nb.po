@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.toolstack.Folio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-13 16:07+0200\n"
-"PO-Revision-Date: 2024-10-13 16:08+0200\n"
+"POT-Creation-Date: 2024-10-15 21:36-0400\n"
+"PO-Revision-Date: 2024-10-16 13:18+0200\n"
 "Last-Translator: Sunniva Løvstad <turtle@turtle.garden>\n"
 "Language-Team: \n"
 "Language: nb\n"
@@ -35,18 +35,18 @@ msgid "Notebook;Note;Notes;Text;Markdown;Notepad;Write;School;Post-it;Sticky;"
 msgstr "Notisbok;Notat;Tekst;Markdown;Notepad;Skriv;Skole;Klistrelapp;Husk;"
 
 #: data/app.desktop.in:22 src/ui/popup/shortcut_window.blp:17
-#: src/ui/strings.vala:8 src/ui/window/window.blp:55
-#: src/ui/window/window.blp:132
+#: src/ui/strings.vala:8 src/ui/window/window.blp:57
+#: src/ui/window/window.blp:136
 msgid "New Note"
 msgstr "Nytt notat"
 
 #: data/app.desktop.in:26 src/ui/popup/shortcut_window.blp:37
-#: src/ui/strings.vala:14 src/ui/window/window.blp:190
+#: src/ui/strings.vala:14 src/ui/window/window.blp:194
 msgid "New Notebook"
 msgstr "Ny notisbok"
 
 #: data/app.desktop.in:30 src/ui/edit_view/toolbar/toolbar.blp:92
-#: src/ui/strings.vala:39 src/ui/window/window.blp:292
+#: src/ui/strings.vala:39 src/ui/window/window.blp:296
 msgid "Markdown Cheatsheet"
 msgstr "Markdown-referanseark"
 
@@ -190,7 +190,9 @@ msgid "URL detection level"
 msgstr "URL-gjenkjennelsesnivå"
 
 #: data/app.gschema.xml:82
-msgid "How agressive to look for URLs in markdown text"
+#, fuzzy
+#| msgid "How agressive to look for URLs in markdown text"
+msgid "How aggressive to look for URLs in markdown text"
 msgstr "Hvor aggressivt Folio skal lete etter URL-er i tekst"
 
 #: data/app.gschema.xml:86
@@ -233,23 +235,23 @@ msgstr "Appdrakt basert på notisbokfarge"
 msgid "Trash can"
 msgstr "Papirkurv"
 
-#: data/app.metainfo.xml.in:393
+#: data/app.metainfo.xml.in:419
 msgid "Main Folio window in light mode"
 msgstr "Hovedvinduet til Folio i lys drakt"
 
-#: data/app.metainfo.xml.in:397
+#: data/app.metainfo.xml.in:423
 msgid "Main Folio window in dark mode"
 msgstr "Hovedvinduet til Folio på mørk drakt"
 
-#: data/app.metainfo.xml.in:401
+#: data/app.metainfo.xml.in:427
 msgid "Folio on small/mobile screens"
 msgstr "Folio på en liten skjerm"
 
-#: data/app.metainfo.xml.in:405
+#: data/app.metainfo.xml.in:431
 msgid "Folio preferences screen"
 msgstr "Folios brukervalgdialogboks"
 
-#: data/app.metainfo.xml.in:409
+#: data/app.metainfo.xml.in:435
 msgid "Folio in three pane mode"
 msgstr "Folio i trerutersmodus"
 
@@ -386,11 +388,11 @@ msgstr "Formatering"
 msgid "Navigation"
 msgstr "Navigasjon"
 
-#: src/ui/popup/shortcut_window.blp:102 src/ui/window/window.blp:269
+#: src/ui/popup/shortcut_window.blp:102 src/ui/window/window.blp:273
 msgid "Toggle Sidebar"
 msgstr "Vis/skjul sidefeltet"
 
-#: src/ui/popup/shortcut_window.blp:107 src/ui/window/window.blp:71
+#: src/ui/popup/shortcut_window.blp:107 src/ui/window/window.blp:73
 msgid "Search Notes"
 msgstr "Søk gjennom notater"
 
@@ -486,7 +488,7 @@ msgstr "%d notater"
 msgid "Are you sure you want to delete everything in the trash?"
 msgstr "Er du sikker på at du vil slette alt i papirkurven?"
 
-#: src/ui/strings.vala:7 src/ui/window/window.blp:62
+#: src/ui/strings.vala:7 src/ui/window/window.blp:64
 msgid "Empty Trash"
 msgstr "Slett"
 
@@ -871,34 +873,34 @@ msgstr "Flytt til papirkurven"
 msgid "Open Containing Folder"
 msgstr "Åpne inneholdende mappe"
 
-#: src/ui/window/window.blp:124
+#: src/ui/window/window.blp:128
 msgid "Get started writing"
 msgstr "Kom i gang med å skrive"
 
-#: src/ui/window/window.blp:153
+#: src/ui/window/window.blp:157
 msgid "Open file in external application"
 msgstr "Åpne fil i ekstern applikasjon"
 
-#: src/ui/window/window.blp:161
+#: src/ui/window/window.blp:165
 msgid "Open file"
 msgstr "Åpne fil"
 
-#: src/ui/window/window.blp:182
+#: src/ui/window/window.blp:186
 msgid "Create a notebook"
 msgstr "Opprett en notisbok"
 
-#: src/ui/window/window.blp:211
+#: src/ui/window/window.blp:215
 msgid "Trash is empty"
 msgstr "Papirkurven er tom"
 
-#: src/ui/window/window.blp:286
+#: src/ui/window/window.blp:290
 msgid "Open in Notebook"
 msgstr "Åpne i notisbok"
 
-#: src/ui/window/window.blp:313
+#: src/ui/window/window.blp:317
 msgid "_Rename Note"
 msgstr "_Bytt navn på notat"
 
-#: src/ui/window/window.blp:320
+#: src/ui/window/window.blp:324
 msgid "_Export Note"
 msgstr "_Eksporter notat"

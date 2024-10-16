@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.toolstack.Folio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-13 16:07+0200\n"
+"POT-Creation-Date: 2024-10-15 21:36-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,18 +34,18 @@ msgid "Notebook;Note;Notes;Text;Markdown;Notepad;Write;School;Post-it;Sticky;"
 msgstr ""
 
 #: data/app.desktop.in:22 src/ui/popup/shortcut_window.blp:17
-#: src/ui/strings.vala:8 src/ui/window/window.blp:55
-#: src/ui/window/window.blp:132
+#: src/ui/strings.vala:8 src/ui/window/window.blp:57
+#: src/ui/window/window.blp:136
 msgid "New Note"
 msgstr ""
 
 #: data/app.desktop.in:26 src/ui/popup/shortcut_window.blp:37
-#: src/ui/strings.vala:14 src/ui/window/window.blp:190
+#: src/ui/strings.vala:14 src/ui/window/window.blp:194
 msgid "New Notebook"
 msgstr ""
 
 #: data/app.desktop.in:30 src/ui/edit_view/toolbar/toolbar.blp:92
-#: src/ui/strings.vala:39 src/ui/window/window.blp:292
+#: src/ui/strings.vala:39 src/ui/window/window.blp:296
 msgid "Markdown Cheatsheet"
 msgstr ""
 
@@ -184,7 +184,7 @@ msgid "URL detection level"
 msgstr ""
 
 #: data/app.gschema.xml:82
-msgid "How agressive to look for URLs in markdown text"
+msgid "How aggressive to look for URLs in markdown text"
 msgstr ""
 
 #: data/app.gschema.xml:86
@@ -227,23 +227,23 @@ msgstr ""
 msgid "Trash can"
 msgstr ""
 
-#: data/app.metainfo.xml.in:393
+#: data/app.metainfo.xml.in:419
 msgid "Main Folio window in light mode"
 msgstr ""
 
-#: data/app.metainfo.xml.in:397
+#: data/app.metainfo.xml.in:423
 msgid "Main Folio window in dark mode"
 msgstr ""
 
-#: data/app.metainfo.xml.in:401
+#: data/app.metainfo.xml.in:427
 msgid "Folio on small/mobile screens"
 msgstr ""
 
-#: data/app.metainfo.xml.in:405
+#: data/app.metainfo.xml.in:431
 msgid "Folio preferences screen"
 msgstr ""
 
-#: data/app.metainfo.xml.in:409
+#: data/app.metainfo.xml.in:435
 msgid "Folio in three pane mode"
 msgstr ""
 
@@ -380,11 +380,11 @@ msgstr ""
 msgid "Navigation"
 msgstr ""
 
-#: src/ui/popup/shortcut_window.blp:102 src/ui/window/window.blp:269
+#: src/ui/popup/shortcut_window.blp:102 src/ui/window/window.blp:273
 msgid "Toggle Sidebar"
 msgstr ""
 
-#: src/ui/popup/shortcut_window.blp:107 src/ui/window/window.blp:71
+#: src/ui/popup/shortcut_window.blp:107 src/ui/window/window.blp:73
 msgid "Search Notes"
 msgstr ""
 
@@ -473,7 +473,7 @@ msgstr ""
 msgid "Are you sure you want to delete everything in the trash?"
 msgstr ""
 
-#: src/ui/strings.vala:7 src/ui/window/window.blp:62
+#: src/ui/strings.vala:7 src/ui/window/window.blp:64
 msgid "Empty Trash"
 msgstr ""
 
@@ -848,34 +848,34 @@ msgstr ""
 msgid "Open Containing Folder"
 msgstr ""
 
-#: src/ui/window/window.blp:124
+#: src/ui/window/window.blp:128
 msgid "Get started writing"
 msgstr ""
 
-#: src/ui/window/window.blp:153
+#: src/ui/window/window.blp:157
 msgid "Open file in external application"
 msgstr ""
 
-#: src/ui/window/window.blp:161
+#: src/ui/window/window.blp:165
 msgid "Open file"
 msgstr ""
 
-#: src/ui/window/window.blp:182
+#: src/ui/window/window.blp:186
 msgid "Create a notebook"
 msgstr ""
 
-#: src/ui/window/window.blp:211
+#: src/ui/window/window.blp:215
 msgid "Trash is empty"
 msgstr ""
 
-#: src/ui/window/window.blp:286
+#: src/ui/window/window.blp:290
 msgid "Open in Notebook"
 msgstr ""
 
-#: src/ui/window/window.blp:313
+#: src/ui/window/window.blp:317
 msgid "_Rename Note"
 msgstr ""
 
-#: src/ui/window/window.blp:320
+#: src/ui/window/window.blp:324
 msgid "_Export Note"
 msgstr ""

@@ -27,9 +27,11 @@ template $FolioWindow: Adw.ApplicationWindow {
         [sidebar]
         Adw.NavigationPage sidebar {
           title: "Sidebar";
+
           child: Revealer sidebar_revealer {
             transition-type: slide_right;
             reveal-child: true;
+
             child: Adw.ToolbarView {
               content: Box {
                 $FolioNotebooksBar notebooks_bar {}
@@ -97,11 +99,13 @@ template $FolioWindow: Adw.ApplicationWindow {
 
         [content]
         Adw.NavigationPage edit_view_page {
-          title: "Edit";
+          title: "Edit View";
+
           child: Overlay {
             hexpand: true;
             vexpand: true;
             width-request: 320;
+
             styles [
               "text-area"
             ]
